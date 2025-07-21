@@ -1,0 +1,13 @@
+.vs/
+*.ipch
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.VC.db
+*.suo
+*.cache
+x64/
+build/
