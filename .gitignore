@@ -1,13 +1,27 @@
+# Ignore Visual Studio files
 .vs/
 *.ipch
-*.exe
 *.obj
 *.pdb
-*.ilk
+*.exe
 *.log
-*.tlog
+*.user
 *.VC.db
-*.suo
 *.cache
+*.suo
+*.ilk
+*.ncb
+*.aps
+*.bak
+
+# Ignore build folders
+Debug/
+Release/
 x64/
+x86/
+*.tlog
+
+# Ignore CMake and compiled files
+CMakeFiles/
+CMakeCache.txt
 build/
